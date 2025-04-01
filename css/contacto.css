@@ -1,0 +1,23 @@
+div {
+    background-color: rgb(222, 239, 222);
+}
+h1 {
+    color: rgb(106, 96, 96);
+    text-align: center;
+    font-size:  50px;
+    font-family:cursive;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: cursive;
+}
+footer {
+    background-color: rgb(179, 179, 179);
+    color: rgb(106, 96, 96);
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+}
