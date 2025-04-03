@@ -21,3 +21,11 @@ footer {
     font-size: 15px;
     font-family: monospace;
 }
+.cuadros {
+    border-radius: 10px;
+}
+.enviar{
+padding: 15px 30px;
+border-radius: 30px;
+text-align: center;
+}
