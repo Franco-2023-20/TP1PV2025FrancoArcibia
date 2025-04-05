@@ -1,5 +1,10 @@
-const boton = document.querySelector('form')
-boton.addEventListener('submit', function() {
-   alert("Nombre: " + nombre + "Email: " + email + "Mensaje: " + mensaje)
+
+document.querySelector ('form')
+.addEventListener ('submit', e => {
+e.preventDefault ()
+const data = Object.fromEntries (
+    new FormData (e.target)
+)
+alert(JSON.stringify(data))
 }
 )
